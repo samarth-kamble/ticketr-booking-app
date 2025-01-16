@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
       { hostname: "adamant-antelope-943.convex.cloud", protocol: "https" },
     ],
   },
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
 };
 
 export default nextConfig;
