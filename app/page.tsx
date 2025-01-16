@@ -1,9 +1,10 @@
 import EventList from "@/components/EventList";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div className="">
       <EventList />
     </div>
   );
-}
+};
+export default HomePage;
